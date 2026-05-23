@@ -1,0 +1,722 @@
+@charset"UTF-8";
+
+body,nav,ul,li{
+    margin:0;
+    padding:0;
+}
+
+
+h1,h2,h3{
+    font-family: "Noto Serif JP", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p,li{
+    font-family: "Noto Serif JP", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.screen{
+    position: relative;
+    width: 100%;
+    height:60vh;
+    background-image:url(../img/33450540_m.jpg);
+    background-size: cover;
+    background-repeat:none;
+    background-color:rgba(62, 87, 146, 0.507);
+    background-blend-mode:darken;
+    margin-top: 25px;
+    
+}
+.main_words{
+    text-align:center;
+    color: #ffffff;
+    font-size:40px;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#0f215f;
+    background-image:linear-gradient(to left,#ffffff,#0f215f)
+}
+.mainlogo{
+    padding-bottom:15px;
+    padding-top:15px;
+}
+.word{
+    position:absolute;
+    top: 220px;
+    left:500px;
+    font-size:35px;
+    color:#ffffff;
+}
+.photo{
+    margin-top:60px;
+    display:flex;
+    background:#e8e8e8;
+}
+.message{
+    margin-left:120px;
+    margin-top:130px;
+}
+.message h2{
+    font-size:30px;
+}
+.kakuu2{
+        display:none;
+    }
+ul{
+    list-style-type:none;
+    font-size:0;
+}
+li{
+    font-size:16px;
+    width: 16%;
+    text-align:center;
+}
+ul li{
+    display:inline-block;
+    border-left:1px solid #000000;
+    box-sizing: border-box;
+}
+li:first-child{
+    border-left:none;
+}
+a{
+    display:block;
+    text-decoration:none;
+    color:#000000;
+    padding-top:0%;
+    padding-bottom:0%;
+}
+.telephone{
+    float:right;
+    margin:-110px 332px;
+}
+.telephone2{
+    float:right;
+    margin: -128px 300px;
+}
+.kakuu{
+    text-align:left;
+    margin-left:20px;
+    color:#ff0000;
+}
+.wrap{
+    display:flex;
+    float:right;
+    margin:-170px 82px;
+}
+.wrap_botton a{
+    font-family: "Noto Serif JP", serif;
+    display:block;
+    padding:15px 38px;
+    margin:-15px -25px;
+    text-decoration:none;
+    border-radius:10px;
+    background-color:#0f215f;
+    color:#ffffff;
+    text-align:center;
+}
+.tax_naiyou{
+    margin-bottom: 125px;
+}
+
+.tax_naiyou h3{
+    margin-top: 80px;
+    text-align:center;
+    font-size:25px;
+    font-family: "Noto Serif JP", serif;
+}
+
+.tax_naiyou ul{
+    list-style-type:none;
+}
+.otoiawase h2 {
+    text-align:center;
+}
+.news h2{
+    clear: both;
+    background-color: #0f215f;
+    background-image:linear-gradient(to left,#ffffff,#0f215f);
+    color:#ffffff;
+    padding-left:15px;
+}
+.map h2{
+    background-color:#0f215f;
+    background-image:linear-gradient(to left,#ffffff,#0f215f);
+    color:#ffffff;
+    padding-left:15px;
+}
+.icon{
+    float: left;
+    margin: 70px 70px;
+}
+.icon img{
+    width: 650px;
+    height:450px;
+}
+.icon p{
+    margin-right:20px;
+    text-align: center;
+}
+.icon2 p{
+    text-align: center;
+    margin-right:20px;
+}
+.icon2{
+    clear: both;
+    float: left;
+    margin: 70px 70px;
+}
+.icon2 img{
+    width:650px;
+    height:450px;
+}
+.icon_name{
+    text-align: center;
+}
+.bunner img{
+    margin-top:200px;
+}
+.bunner2 img{
+    margin-top:500px;
+}
+
+.castmer h2{
+    background-color:#0f215f;
+    background-image:linear-gradient(to left,#ffffff,#0f215f);
+    color:#ffffff;
+    padding-left:15px;
+}
+.map2{
+    margin-left:20px;
+}
+.mapword span {
+    font-size:20px;
+    font-weight:bold;
+    color:#173292;
+    display:block;
+}
+.mapword p{
+    font-size:20px;
+}
+.mapword{
+    margin-left:40px;
+}
+.access{
+    display:flex;
+}
+.news ul li{
+    text-align:left;
+    width:100%;
+    text-decoration: none;
+}
+ul time{
+    border-radius:10px;
+    background-color:#0f215f;
+    color:#ffffff;
+    margin-right:20px;
+}
+li{
+    margin-bottom:25px;
+    padding-left:20px;
+    list-style-type:none;
+}
+
+footer{
+    text-align:center;
+}
+.otoiawase{
+    background-color: #f0f0f0;
+    border:1px solid #000000;
+    margin-top:60px;
+    margin-bottom:60px;
+    margin-left:400px;
+    margin-right:400px;
+}
+.otoiawase h1{
+   text-align:center;
+}
+.word2{
+    font-size:18px;
+    text-align:center;
+}
+.word3{
+    color:#173292;
+}
+
+.btn{
+    font-size:14px;
+    background:#0f215f;
+    text-align:center;
+    max-width:200px;
+    margin:20px auto;
+    border-radius:5px;
+    
+}
+.btn a{
+    color:#ffffff;
+    display:block;
+    width:100%;
+    height:100%;
+    padding-bottom:20px;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+a{
+    font-family: "Noto Serif JP", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.news2{
+    border-left: none;
+}
+.item{
+    border:1px solid #000000;
+    color:#000000;
+    margin:10px;
+    padding:10px;
+}
+
+.item img{
+    padding-left:180px;
+    padding-top:40px;
+}
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:10px;
+    grid-template-rows:380px;
+}
+.btns{
+    background:#0f215f;
+    max-width:170px;
+    margin-top:34px;
+    border-radius:10px;
+}
+.btns a{
+    color:#ffffff;
+    display:block;
+    width:100%;
+    height:100%;
+    padding-bottom:22px;
+    box-sizing:border-box;
+    text-decoration:none;
+    text-align:center;
+}
+.page{
+    position: relative;
+    padding-right:40px;
+    padding-top:100px;
+    font-size:25px;
+}
+.page a{
+    vertical-align:bottom;
+    padding-top: 100px;
+    padding-left:100px;
+}
+.page2{
+    padding-top: 15px;
+    margin-bottom: -80px;
+    font-size:25px;
+    padding-right:40px;
+}
+footer{
+    font-family: "Noto Serif JP", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+a:hover{
+    color:#0bdcff;
+}
+.page3{
+    text-decoration:underline;
+}
+@media screen and (max-width:960px) {
+    body,nav,ul,li{
+        margin: 0;
+        padding:0;
+        
+    }
+    nav{
+        max-width:100%;
+       
+        margin-left: 34px;
+    }
+    .telephone{
+        font-size:25px;
+        margin:-73px 226px;
+    }
+    .telephone2{
+        font-size:14px;
+        margin:-94px 190px;
+    }
+    nav li a{
+        font-size:10px;
+    }
+    .wrap{
+        margin:-141px 39px;
+    }
+    .wrap_botton{
+        float: none;
+        max-width:100%;
+    }
+    .wrap_botton a{
+        margin-left:50px;
+    }
+    .screen {
+        background-repeat: no-repeat;
+        padding-right: 50px;
+        height:400px;  
+        max-width:862px;
+    }
+    .word{
+        top: 152px;
+        left: 172px;
+    }
+    a{
+        font-size:13px;
+        padding-right:15px;
+    }
+    .photo img{
+        height:290px;
+    }
+    .photo{
+        max-width:100%;
+        margin-bottom: 60px;
+    }
+    .message{
+        padding-right:20px;
+        margin-left: 70px;
+        margin-top: 77px;
+        font-size: 13px;
+    }
+    .message h2{
+        font-size:13px;
+    }
+    .btns{
+        max-width: 130px;
+        height: 45px;
+        font-size: 65%;
+        padding-left:10px;
+    }
+    .main_words{
+       max-width:100%;
+    }
+    .container{
+        grid-template-rows:320px;
+    }
+    .item{
+        max-width:180px;
+        height:180px;
+        margin-left: 50px;
+    }
+    .item img{
+        padding-left: 19px;
+        padding-top:17px;
+    }
+    .item h3{
+        margin-top: 40px;
+        font-size:30px;
+    }
+    .page2{
+        max-width:100%;
+    }
+    .page2 a{
+        font-size: 20px;
+    }
+    .page{
+        max-width: 100%;
+    }
+    .page a{
+        font-size:20px;
+        margin-right: 0px;
+        margin-top:354px;
+    }
+  
+    .icon{
+        margin:0px 0px;
+    }
+    .icon img{
+         margin:0px 0px;
+        display:flex;
+        max-width:55%;
+        height:244px;
+    }
+    .icon_name{
+        font-size:23px;
+        max-width:322px;
+        text-align: center;
+    }
+  
+    .bunner img{
+        float: left;
+        max-width:50%;
+        margin:-242px 363px;
+       
+    }
+    .icon2{
+       margin:0px 0px;
+    }
+    .icon2 img{
+        display:flex;
+        max-width:55%;
+        height:244px;
+    }
+    .bunner2{
+       max-width:100%;
+    }
+    .bunner2 img{
+        float: left;
+        max-width:50%;
+        margin:-242px 363px;
+        
+    }
+     li{
+        padding-top:6px;
+        padding-bottom:6px;
+        padding-left:25px;
+    }
+    iframe{
+        max-width:50%;
+        height:280px;
+        margin-left: 90px;
+    }
+    .mapword p{
+        font-size:15px;
+        padding-left:60px;
+    }
+    .mapword{
+        margin-left: -200px;
+    }
+    .otoiawase{
+       max-width:100%;
+       height:400px;
+       margin:50px 50px;
+    }
+    footer{
+        max-width:100%;
+    }
+    .mainlogo{
+        padding-bottom:0px;
+    }
+    }
+
+@media screen and (max-width:480px) {
+    body{
+        margin: 0;
+        padding:0;
+    }
+    .telephone{
+        display: none;
+    }
+    .telephone2{
+        display:none;
+    }
+    .wrap_botton{
+        display:none;
+    }
+    .telephone {
+        margin: -46px 124px;
+        font-size:100%;
+        padding:6px 17px;
+    }
+    .telephone2{
+        font-size:8px;
+        padding:24px 0px;
+        max-width:152px;
+        height: 20px;
+    }
+    .kakuu{
+        display:none;
+    }
+    .kakuu2{
+        display:block;
+        text-align:center;
+        color:#ff0000;
+    }
+    nav ul{
+        text-align: left;
+        padding:0;
+    }
+    .wrap_botton{
+        float:none;
+    }
+    .wrap a{
+        padding:10px 18px;
+        font-size:11px;
+        border-radius:6px;
+    }
+    a{
+        padding-right: 0;
+    }
+    .wrap{
+        margin:-35px 32px;
+    }
+    .screen{
+        background-repeat:no-repeat;
+        max-width:88%;
+        height:250px;
+    }
+    .word{
+        font-size:15px;
+        top:110px;
+        left:90px;
+    }
+    .photo{
+        max-width:100%;
+        margin:20px 0px;
+    }
+    .photo img{
+        max-width:100%;
+        height:159px;
+    }
+    .message{
+        margin:9px 16px;
+        font-size:10px;
+    }
+    .message h2{
+        font-size:10px;
+        width:126%;
+    }
+    .message p{
+        font-size:10px;
+        width:126%;
+    }
+    .btns{
+        max-width:70px;
+        height:30px;
+        margin-top:20px;
+    }
+    .btns a{
+        font-size:110%;
+        margin-left:-3px;
+    }
+    .main_words{
+        max-width:100%;
+        font-size: 20px;
+    }
+    .container{
+        grid-template-rows:80px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:0px;
+    }
+    .item{
+        max-width:60px;
+        height:60px;
+        margin-left:30px;
+    }
+    .item img{
+        max-width:60px;
+        height:60px;
+        padding-left:2px;
+        padding-top:4px;
+    }
+    .item h3{
+        margin-top:10px;
+        font-size:10px;
+    }
+    .tax_naiyou{
+        margin-bottom:90px;
+    }
+    .page{
+        max-width:92%;
+        padding:0px 0px;
+    }
+    .page a{
+        font-size:13px;
+    }
+    .page2{
+        max-width:395px;
+        padding-top: 52px;
+    }
+    .page2 a{
+        font-size:13px;
+    }
+    .icon{
+        margin:-8px 0;
+    }
+    .icon_name{
+        font-size:14px;
+    }
+    .icon img{
+        max-width:150px;
+        height:100px;
+    }
+    .icon p{
+        font-size:10px;
+        margin-left:8px;
+    }
+    .icon2{
+        margin:-31px 0;
+    }
+    .icon2 img{
+        max-width:150px;
+        height:100px;
+    }
+    .icon2 p{
+        font-size:10px;
+        margin-left:8px;
+    }
+    .bunner img{
+        max-width:230px;
+        margin:85px 0;
+        margin-top:40px;
+    }
+    .bunner2 img{
+        max-width:230px;
+        margin:40px 0;
+    }
+    iframe{
+        max-width:150px;
+        height:150px;
+        margin-left:5px;
+    }
+    .mapword{
+        margin-left:-38px;
+    }
+    .mapword p{
+        font-size:10px;
+    }
+    .mapword p span{
+        font-size:13px;
+    }
+    .otoiawase{
+        max-width:310px;
+        height:230px;
+        margin-left:39px;
+    }
+   .otoiawase h1{
+        font-size:15px;
+   }
+   .otoiawase h2{
+        font-size:12px;
+   }
+   .word3{
+        font-size:15px;
+   }
+   .word2{
+        font-size:13px;
+   }
+   .btn{
+        max-width:105px;
+        height:30px;
+   }
+   .btn a{
+        max-width:115px;
+        font-size:10px;
+        margin:-12px 1px;
+   }
+   footer{
+        max-width:100%;
+   }
+   small{
+        font-size:10px;
+   }
+    .news2{
+        font-size:20px;
+    }
+   
+    }
+
